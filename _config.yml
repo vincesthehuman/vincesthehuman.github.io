@@ -2,13 +2,10 @@
 title: Fotograbben
 email: wr222ae@student.lnu.se
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Check out my Github to see all the cool stuff i have made or contributed to.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  wr222ae
+github_username:  vincesthehuman
 
 # Build settings
 markdown: kramdown
