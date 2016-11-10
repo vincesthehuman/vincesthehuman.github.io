@@ -29,8 +29,20 @@
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
+    float: right;
+
+    .trigger {
+        text-align: center;
+
+        a{
+            font-size: 30pt;
+            
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
 
     .menu-icon {
         display: none;
