@@ -40,7 +40,6 @@
             
         }
         a:hover{
-            transition: all 0.15s;
             color: white;
         }
     }
@@ -177,7 +176,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    background-color: lightgrey;
+    background-color: $secondary-background-color;
 }
 
 .page-heading {
