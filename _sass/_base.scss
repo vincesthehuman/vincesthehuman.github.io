@@ -99,6 +99,7 @@ a {
     &:hover {
         color: $text-color;
         text-decoration: none;
+        transition: all 0.15s;
     }
 }
 
