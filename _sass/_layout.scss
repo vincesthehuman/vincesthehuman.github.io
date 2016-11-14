@@ -211,6 +211,10 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    img {
+        width: 27pt;
+        padding-bottom: 10px;
+    }
 }
 
 .post-title {
