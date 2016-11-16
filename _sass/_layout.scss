@@ -268,3 +268,38 @@
         }
     }
 }
+
+.lek {
+    position: relative;
+
+}
+
+#huvud {
+
+  width: 20%;
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  left: 80%;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 65%;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+/*#huvud {
+    width: 10%;
+    margin-left: -10%;
+    
+    &:active{
+             margin-top: -100px;
+             transition-duration: 0.15s;
+}
+}*/

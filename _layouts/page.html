@@ -12,7 +12,9 @@ layout: default
 
   <article class="page-content">
     {% if page.image %}
-  <img class="article-img" src="/pics/{{ page.image }}">
+    <div class="div-img">
+      <img class="article-img" src="/pics/{{ page.image }}">
+    </div>
   {% endif %}
     {{ content }}
   </article>
