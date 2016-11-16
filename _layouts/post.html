@@ -15,6 +15,7 @@ comments: true
   </article>
   HEJSAN
   hej igen
+  {% if page.comments %}
   <div id="disqus_thread"></div>
 <script>
     /**
@@ -37,5 +38,6 @@ comments: true
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-hej william
+{% endif %}
+hej Johan
 </div>
