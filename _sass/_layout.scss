@@ -20,11 +20,6 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
 }
 
 .site-nav {
@@ -36,11 +31,10 @@
 
         a{
             font-size: 250%;
-            font-weight: bold
-            
-        }
-        a:hover{
+            font-weight: bold;
+            &:hover{
             color: white;
+                }
         }
     }
 
