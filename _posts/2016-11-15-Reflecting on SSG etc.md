@@ -3,6 +3,7 @@ layout: post
 title:  "Reflecting on SSG etc"
 date:   2016-11-15
 categories: assignment questions
+comments: true
 ---
 
 <h3>What do you think of pre-compiling your CSS?
