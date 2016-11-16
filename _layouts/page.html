@@ -8,7 +8,12 @@ layout: default
     <h1 class="page-title">{{ page.title }}</h1>
   </header>
 
+
+
   <article class="page-content">
+    {% if page.image %}
+  <img class="article-img" src="/pics/{{ page.image }}">
+  {% endif %}
     {{ content }}
   </article>
 
