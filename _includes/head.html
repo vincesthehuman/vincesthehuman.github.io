@@ -28,9 +28,9 @@
     {% endif %}
     
     {% if page.image %}
-    <meta property="og:image" content="pics/{{ page.image }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.url }}pics/{{ page.image }}">
     {% else %}
-    <meta property="og:image" content="pics/fionnac1.png">
+    <meta property="og:image" content="{{ site.url }}{{ page.url }}pics/fionnac1.png">
     {% endif %}
 
 </head>
