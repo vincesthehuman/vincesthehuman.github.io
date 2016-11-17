@@ -32,5 +32,10 @@ Precis som robots.txt lägger man till humans.txt i root foldern. Jag har valt a
 gjorde jag min text ganska nerskalad.
 
 <h3>How did you implements comments to blog posts</h3>
+Jag valde att använda mig av disqus. Eftersom jag vill upprepa mig så få gånger som möjligt och hålla mig DRY, valde jag att lägga till Disqus 'Universal 
+embed code' i filen post.html i mappen _layouts. Jag stötte på ett problem, där det inte gick att kommentera mina inlägg som lagts upp. Lösningen var relativt 
+enkel, jag la till 'commets:true' på de inlägg som jag ville ha kommentarer på.
 
 <h3>What is Open Graph and how do you make use of it?</h3>
+Open Graph är ett sätt att sätta meta taggar i en head på en webbplats för att visa vad som finns på sidan. Det är för att ge sociala media ett gemensamt protokoll att 
+visa innehållet på en sida, en så kallad 'preview'.
