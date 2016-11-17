@@ -4,12 +4,11 @@ title: Home
 exclude_from_nav: true
 ---
 
-Hej hej!
+Hej hej! 
 
-Klicka gärna runt ghär på min lilla webbplats, titta gärna även på den med en mobil och fnittra åt muin bokstavliga hambugarmeny!
+Klicka gärna runt här på min lilla webbplats, titta gärna även på den med en mobil och fnittra åt min bokstavliga hamburgaremeny! 
 
-Läs även gärna "Om mig" för att lära dig lite mer om vem jag är och vad jag gör med mitt liv utanför skolan.
-
+Läs även gärna “Om mig” för att lära dig lite mer om vem jag är och vad jag gör med mitt liv utanför skolan. 
         
 
 <div class="lek">
