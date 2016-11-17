@@ -4,7 +4,7 @@ email: wr222ae@student.lnu.se
 description: > # this means to ignore newlines until "baseurl:"
   Check out my Github to see all the cool stuff i have made or contributed to.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://vincesthehuman.github.io" # the base hostname & protocol for your site
 github_username:  vincesthehuman
 
 # Build settings
