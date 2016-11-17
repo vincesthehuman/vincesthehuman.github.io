@@ -12,6 +12,6 @@ Läs även gärna “Om mig” för att lära dig lite mer om vem jag är och va
         
 
 <div class="lek">
-    <img id="huvud" src="/pics/dh.png">
-    <img id="kropp" src="/pics/ducky.jpg">
+    <img id="huvud" src="/pics/dh.png" alt="head of a duck floating on a duck with it's head in the water">
+    <img id="kropp" src="/pics/ducky.jpg" alt="head of a duck floating on a duck with it's head in the water">
 </div>
