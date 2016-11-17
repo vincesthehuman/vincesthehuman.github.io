@@ -10,8 +10,6 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <meta property="og:site_name" content="{{ site.title }}">
-
-    <meta name="description" content="{{ site.description }}">
     
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}">
@@ -30,9 +28,9 @@
     {% endif %}
     
     {% if page.image %}
-    <meta property="og:image" content="/pics/{{ page.image }}">
+    <meta property="og:image" content="pics/{{ page.image }}">
     {% else %}
-    <meta property="og:image" content="/pics/fionnac1.png">
+    <meta property="og:image" content="pics/fionnac1.png">
     {% endif %}
 
 </head>
