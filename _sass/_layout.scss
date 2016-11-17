@@ -33,8 +33,8 @@
             font-size: 250%;
             font-weight: bold;
             &:hover{
-            color: white;
-                }
+                color: white;
+                   }
         }
     }
 
@@ -99,8 +99,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding-top: $spacing-unit;
 }
 
 .footer-heading {
@@ -180,6 +179,7 @@
 .article-img {
     width: 30%;
     float: right;
+    margin: $spacing-unit;
 }
 
 .post-list {
@@ -217,8 +217,9 @@
     &:hover {
         img {
              margin-left: -7px;
-             filter: grayscale(100%);
-             transition-duration: 0.3s;
+             opacity: 0.3;
+             /*filter: grayscale(100%);*/
+             transition-duration: 0.5s;
          }
     }
     a {
@@ -271,7 +272,7 @@
 
 #huvud {
   width: 20%;
-  animation: MoveUpDown 2s linear infinite;
+  animation: MoveUpDown 1.5s linear infinite;
   position: absolute;
   left: 80%;
   bottom: 0;

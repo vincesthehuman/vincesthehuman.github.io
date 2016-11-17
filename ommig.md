@@ -2,7 +2,7 @@
 layout: page
 title: Om mig
 permalink: /ommig/
-image: ducky.jpg
+image: william.jpg
 ---
 
 Hej världen!
