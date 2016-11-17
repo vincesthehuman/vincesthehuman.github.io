@@ -3,6 +3,7 @@ layout: page
 title: Om mig
 permalink: /ommig/
 image: william.jpg
+image-alt: a picture of me holding real doge
 ---
 
 Hej världen!

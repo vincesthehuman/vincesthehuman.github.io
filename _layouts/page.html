@@ -13,7 +13,7 @@ layout: default
   <article class="page-content">
     {% if page.image %}
     <div class="div-img">
-      <img class="article-img" src="/pics/{{ page.image }}">
+      <img class="article-img" src="/pics/{{ page.image }}" alt="{{ page.image-alt }}">
     </div>
   {% endif %}
     {{ content }}
