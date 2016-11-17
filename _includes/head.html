@@ -12,26 +12,27 @@
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <meta content="{{ site.title }}" property="og:site_name">
+    <meta property="og:site_name" content="{{ site.title }}">
+    
     {% if page.title %}
-    <meta content="{{ page.title }}" property="og:title">
+    <meta property="og:title" content="{{ page.title }}">
     {% else %}
-    <meta content="{{ site.title }}" property="og:title">
+    <meta property="og:title" content="{{ site.title }}">
     {% endif %}
     
     {% if page.title %}
-    <meta content="article" property="og:type">
+    <meta property="og:type" content="article">
     {% else %}
-    <meta content="website" property="og:type">
+    <meta property="og:type" content="website">
     {% endif %}
 
     {% if page.url %}
-    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     {% endif %}
     
     {% if page.image %}
-    <meta content="/img/srcset/{{ page.image }}" property="og:image">
+    <meta property="og:image" content="/img/srcset/{{ page.image }}">
     {% else %}
-    <meta content="/img/logo-high-resolution.png" property="og:image">
+    <meta property="og:image" content="/img/logo-high-resolution.png">
     {% endif %}
 </head>
